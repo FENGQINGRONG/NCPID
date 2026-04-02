@@ -10,6 +10,10 @@ The detailed please see the paper.
 By Qingrong Feng
 April 2025
 
+If you have any question, please contact me. Email: fqr2018@163.com
+
+
+
 ##Cite
 
 @article{feng2024poisson,
