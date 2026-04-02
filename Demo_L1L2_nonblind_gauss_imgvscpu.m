@@ -2,20 +2,20 @@
 close all;
 clc
 clear variables
-cd('C:\Users\Administrator\Desktop\3.7实验_nonblind')
+cd('C:\Users\Administrator\Desktop\3.7脢碌脩茅_nonblind')
 addpath('.\operater')
-addpath('.\compare_method')
+%addpath('.\compare_method')
 maxValuelist    = [500];%[350 300 200 100];
 % alphaValueList    =0.1];%[25 20 15 10];
 % H   =  fspecial('gaussian',11, 3); 
-% H   =  fspecial('average',11); %11x11的矩阵大小为1/121=0.0083
+% H   =  fspecial('average',11); %11x11碌脛戮脴脮贸麓贸脨隆脦陋1/121=0.0083
 psf             = fspecial('gaussian', [25,25],1.6); 
 % figure1=imshow(psf,[]);
 cur_file = ['baby.tif', 'boat.pgm', 'bridge.pgm', 'buty(256).png', 'einstein.pgm', 'house.pgm', 'lena.pgm', 'leopard.pgm', 'parrot.png', 'peppers.pgm', 'tulips.pgm'];
 
  datasave_time=zeros(10,2);
 %% To do data gray
-folder = 'C:\Users\Administrator\Desktop\3.7实验_nonblind\Test image_nonblind\';
+folder = 'C:\Users\Administrator\Desktop\3.7脢碌脩茅_nonblind\Test image_nonblind\';
 for picnum = 1:3
         if picnum==1    
         filepaths = dir(fullfile(folder,'*.png'));
